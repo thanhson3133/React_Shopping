@@ -14,9 +14,9 @@ function App() {
       <Switch>
         <Route path='/login' component={Login} />
         <Route path='/register' component={Register} />
+        <Route path='/productlist' component ={ProductList}/>
         <Route path='/product' component ={Product}/>
         <Route path='/cart' component={Cart} />
-        <Route path='/productlist' component ={ProductList}/>
         <Route path='/' component={HomePage} />
       </Switch>
     </BrowserRouter>
